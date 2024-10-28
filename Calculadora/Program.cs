@@ -22,16 +22,16 @@ internal class Program
         Console.WriteLine("Este programa calcula la suma de los dos primeros numeros y el producto de los otros dos");
 
         // Recoleccion de datos
-        Console.WriteLine("Digite el primer numero");
+        Console.WriteLine("Digite el primer numero:");
         num1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Digite el segundo numero");
+        Console.WriteLine("Digite el segundo numero:");
         num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Digite el tercer numero");
+        Console.WriteLine("Digite el tercer numero:");
         num3 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Digite el cuerto numero");
+        Console.WriteLine("Digite el cuerto numero:");
         num4 = Convert.ToInt32(Console.ReadLine());
 
         // Operacion
@@ -40,6 +40,8 @@ internal class Program
 
         // Resultado
         Console.WriteLine($"La suma es igual a {suma} y el producto es igual a {producto}");
+
+        Console.WriteLine("Gracias por participar!");
 
 
     }
